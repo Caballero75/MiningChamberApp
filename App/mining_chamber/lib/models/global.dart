@@ -5,34 +5,40 @@ Color lightBlueColor = Color(0xFF71B9EB);
 Color lighterBlueColor = Color(0xFF71B9EB).withOpacity(0.5);
 
 TextStyle pageTitleStyle = new TextStyle(
-  fontFamily: 'Helvetica', 
-  fontWeight: FontWeight.bold, 
-  fontSize: 50,
-  color: darkBlueColor
+  fontFamily: 'Helvetica',
+  fontWeight: FontWeight.bold,
+  fontSize: 30,
+  letterSpacing: 2,
+  color: darkBlueColor,
+  shadows: <Shadow>[
+    Shadow(
+      offset: Offset(3.0, 2.0),
+      blurRadius: 15.0,
+      color: darkBlueColor,
+    ),
+  ],
 );
 
 TextStyle tabTitleStyle = new TextStyle(
-  fontFamily: 'Helvetica', 
-  fontWeight: FontWeight.bold, 
-  fontSize: 30,
-  color: Colors.white
-);
+    fontFamily: 'Helvetica',
+    fontWeight: FontWeight.bold,
+    fontSize: 30,
+    color: Colors.white);
 
 TextStyle blogTitleStyle = new TextStyle(
-  fontFamily: 'Avenir',  
+  fontFamily: 'Avenir',
   fontSize: 20,
-  color: Colors.white
+  color: Colors.white,
 );
 
 TextStyle blogDateStyle = new TextStyle(
-  fontFamily: 'Avenir',  
+  fontFamily: 'Avenir',
   fontSize: 12,
-  color: Colors.white.withOpacity(0.5)
+  color: Colors.white.withOpacity(0.5),
 );
 
 TextStyle smallButtonTextStyle = new TextStyle(
-  fontFamily: 'Avenir', 
-  fontWeight: FontWeight.bold, 
-  fontSize: 12,
-  color: darkBlueColor
-);
+    fontFamily: 'Avenir',
+    fontWeight: FontWeight.bold,
+    fontSize: 12,
+    color: darkBlueColor);
