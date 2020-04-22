@@ -6,4 +6,4 @@
 // @author       Diego Carvalho
 // @grant        none
 // ==/UserScript==
-alert('tchau');
+alert('123 testando');
